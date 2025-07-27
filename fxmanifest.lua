@@ -1,11 +1,14 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'yourname'
-description 'Catalytic Converter Theft System'
-version '1.0.0'
+author 'jxroo'
+description 'Catalytic Converter Theft System (Secured & Optimized)'
+version '2.0.0'
 
-shared_script 'config.lua'
+shared_scripts {
+    '@ox_lib/init.lua',
+    'config.lua'
+}
 
 client_script 'client/main.lua'
 server_script 'server/main.lua'
@@ -16,6 +19,6 @@ files {
     'html/index.html',
     'html/style.css',
     'html/script.js',
-    'dzwieki/cutting.ogg',
+    'sounds/cutting.ogg',
     'locales/pl.lua'
 }
