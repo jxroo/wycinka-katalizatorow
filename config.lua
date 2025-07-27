@@ -20,7 +20,7 @@ Config.Fence = {
 -- NOWA SEKCJA MINIGRY
 Config.Minigame = {
     enabled = true,
-    requiredHits = 5, -- ile razy trzeba trafić
+    requiredHits = 5, -- ile razy trzeba trafic
     duration = 15000, -- calkowity czas na wykonanie minigry (w milisekundach)
     successZoneWidth = 12, -- szerokosc strefy sukcesu w %
     markerSpeed = 1.5 -- predkosc znacznika (im nizsza wartosc, tym szybciej)
